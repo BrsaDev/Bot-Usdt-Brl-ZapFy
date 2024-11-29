@@ -7,7 +7,7 @@ const { conectar_instance, desconectar_instance } = require('./services/zapfy/in
 
 
 try {
-    let port = process.env.PORT || 3000
+    let port = process.env.PORT || 3010
     const app = express()
     // app.use(express.limit(100000000));
     app.use(express.urlencoded({ extended: false, limit: '50mb' }))
